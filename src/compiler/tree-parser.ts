@@ -7,7 +7,7 @@ export class TreeParser {
   private MAX_TREE_SIZE = 64;
   private MAX_TREE_TYPE = 2;
   private DEFAULT_TREE_TYPE = 1;
-  private DEFAULT_TREE_SIZE = 32;
+  private DEFAULT_TREE_SIZE = 48;
 
   public parse(identifierToken: TokenUnit, iterator: TokenUnit[]): [ASTChildrenNode, TokenUnit | undefined] {
     let type: number = this.DEFAULT_TREE_TYPE;
