@@ -3,7 +3,7 @@ import { basicDark } from '@uiw/codemirror-theme-basic';
 
 const CodeInfo = ({ tokens, ast }) => {
   return (
-    <div className="pt-2 flex gap-2 flex-col lg:flex-row">
+    <div className="pt-2 flex gap-2 flex-col">
       <div>
         <h3 className="text-xl">Tokens</h3>
         <CodeMirror
