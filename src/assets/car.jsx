@@ -1,7 +1,7 @@
 const Car = ({ size = 64, color = "black" }) => {
   return (
     <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-      height={size} viewBox="0 0 718.000000 347.000000"
+      width={size * 3} viewBox="0 0 718.000000 347.000000"
       preserveAspectRatio="xMidYMid meet">
 
       <g transform="translate(0.000000,347.000000) scale(0.100000,-0.100000)"
