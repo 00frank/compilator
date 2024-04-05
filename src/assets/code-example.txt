@@ -1,0 +1,5 @@
+INT height = 50
+PERSON p1 = PERSON, height, "red"
+draw(p1)
+draw(TREE, 50, 100)
+draw(CAR, red)
