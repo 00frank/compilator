@@ -33,7 +33,8 @@ const ObjectTypesIntro = () => {
           <code class="bg-gray-100 text-gray-800 p-1 rounded">PERSON</code>,{" "}
           <code class="bg-gray-100 text-gray-800 p-1 rounded">CAR</code> o {" "}
           <code class="bg-gray-100 text-gray-800 p-1 rounded">TREE</code>{" "}
-          debe usarse tanto al inicio como en la asignación del objeto, dependiendo su caso.</li>
+          debe usarse tanto al inicio como en la asignación del objeto, dependiendo su caso. Esto es necesario, ya que deben heredar las propiedades por defecto de su tipo. Caso contrario, el compilador mostrará un error.
+          </li>
       </ul>
     </>
   )

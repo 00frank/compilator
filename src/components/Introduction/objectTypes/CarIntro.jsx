@@ -21,11 +21,11 @@ const CarIntro = () => {
       <div className={`transition-all bg-blue-500/10 ${showIntro ? "scale-100 block" : "scale-0 absolute"}`}>
         <h4 class="text-lg font-semibold mb-2">Creación de un Objeto <code class="bg-gray-100 text-gray-800 p-1 rounded">CAR</code></h4>
 
-        <p class="mb-2">Para crear un objeto de tipo <code class="bg-gray-100 text-gray-800 p-1 rounded">CAR</code>, sigue estos pasos:</p>
+        <p class="mb-2">Para crear un objeto de tipo <code class="bg-gray-100 text-gray-800 p-1 rounded">CAR</code>, seguí estos pasos:</p>
 
         <ol class="list-decimal ml-8 mb-4">
-          <li>Comienza con la palabra clave <code class="bg-gray-100 text-gray-800 p-1 rounded">CAR</code>.</li>
-          <li>Escribe el nombre del objeto.</li>
+          <li>Comenzá con la palabra clave <code class="bg-gray-100 text-gray-800 p-1 rounded">CAR</code>.</li>
+          <li>Escribí el nombre del objeto.</li>
           <li>Utiliza el signo de asignación (<code>=</code>).</li>
           <li>Proporciona la palabra clave <code class="bg-gray-100 text-gray-800 p-1 rounded">CAR</code>.</li>
           <li>Especifica el tamaño (<code>size</code>), que puede ser un valor numérico o una variable. La altura máxima permitida es 64. Si no se especifica, el tamaño por defecto es 32.</li>

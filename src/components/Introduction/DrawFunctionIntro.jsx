@@ -30,7 +30,7 @@ const DrawFunctionIntro = () => {
       <h3 class="text-xl font-semibold mb-2">Notas Importantes</h3>
 
       <ul class="list-disc ml-8 mb-4">
-        <li>La función <code class="bg-gray-100 text-gray-800 p-1 rounded">draw()</code> solo puede utilizarse con los objetos <code class="bg-gray-100 text-gray-800 p-1 rounded">PERSON</code>, <code class="bg-gray-100 text-gray-800 p-1 rounded">CAR</code>, y <code class="bg-gray-100 text-gray-800 p-1 rounded">TREE</code>.</li>
+        <li>La función <code class="bg-gray-100 text-gray-800 p-1 rounded">draw()</code> solo puede usarse con los objetos <code class="bg-gray-100 text-gray-800 p-1 rounded">PERSON</code>, <code class="bg-gray-100 text-gray-800 p-1 rounded">CAR</code>, y <code class="bg-gray-100 text-gray-800 p-1 rounded">TREE</code>.</li>
         <li>Es importante que el objeto pasado como parámetro haya sido definido previamente.</li>
         <li>La palabra clave <code class="bg-gray-100 text-gray-800 p-1 rounded">draw</code> debe usarse seguida de paréntesis que contienen el nombre del objeto a dibujar.</li>
       </ul>

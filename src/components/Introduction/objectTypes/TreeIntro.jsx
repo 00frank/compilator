@@ -20,21 +20,21 @@ const TreeIntro = () => {
       <div className={`transition-all bg-green-500/10 ${showIntro ? "scale-100 block" : "scale-0 absolute"}`}>
         <h4 class="text-lg font-semibold mb-2">Creación de un Objeto <code class="bg-gray-100 text-gray-800 p-1 rounded">TREE</code></h4>
 
-        <p class="mb-2">Para crear un objeto de tipo <code class="bg-gray-100 text-gray-800 p-1 rounded">TREE</code>, sigue estos pasos:</p>
+        <p class="mb-2">Para crear un objeto de tipo <code class="bg-gray-100 text-gray-800 p-1 rounded">TREE</code>, seguí estos pasos:</p>
 
         <ol class="list-decimal ml-8 mb-4">
-          <li>Comienza con la palabra clave <code class="bg-gray-100 text-gray-800 p-1 rounded">TREE</code>.</li>
-          <li>Escribe el nombre del objeto.</li>
+          <li>Comenzá con la palabra clave <code class="bg-gray-100 text-gray-800 p-1 rounded">TREE</code>.</li>
+          <li>Escribí el nombre del objeto.</li>
           <li>Utiliza el signo de asignación (<code>=</code>).</li>
           <li>Proporciona la palabra clave <code class="bg-gray-100 text-gray-800 p-1 rounded">TREE</code>.</li>
-          <li>Elige el tipo de árbol (<code>type</code>), que debe ser un valor numérico o una variable. Los valores posibles son 1 o 2. Cualquier valor diferente de 1 se considerará como 2. Si no se especifica, el tipo por defecto es 1.</li>
+          <li>Elegí el tipo de árbol (<code>type</code>), que debe ser un valor numérico o una variable. Los valores posibles son 1 o 2. Cualquier valor diferente de 1 se considerará como 2. Si no se especifica, el tipo por defecto es 1.</li>
           <li>Opcionalmente, especifica el tamaño (<code>size</code>), que puede ser un valor numérico o una variable. El tamaño máximo permitido es 64. Si no se especifica, el tamaño por defecto es 48.</li>
         </ol>
 
         <p class="mb-2 font-medium">Ejemplo:</p>
         <pre class="bg-gray-100 text-gray-800 p-3 rounded mb-4 max-w-[500px]">
           <code>
-            TREE oakTree = TREE, 1, 50
+            TREE oakTree = TREE, 2, 50
             <br />
             TREE pineTree = TREE, typeVar
             <br />

@@ -10,7 +10,7 @@ const PrimitiveTypesIntro = () => {
         <div>
           <h3 className="text-xl font-semibold mb-2">Creación de Variables de tipo primitivo</h3>
           <p className="mb-4">
-            Primero una pequeña instrucción a los tipos primitivos, (<code className="bg-gray-100 text-gray-800 p-1 rounded">INT</code>) y (<code className="bg-gray-100 text-gray-800 p-1 rounded">STRING</code>) que posiblemente los utilices para personalizar los distintos tipos de objetos.
+            Primero una pequeña introducción a los tipos primitivos, (<code className="bg-gray-100 text-gray-800 p-1 rounded">INT</code>) y (<code className="bg-gray-100 text-gray-800 p-1 rounded">STRING</code>) que posiblemente los utilices para personalizar los distintos tipos de objetos.
             A continuación, se describen los pasos para trabajar con estas variables.
           </p>
         </div>
@@ -27,8 +27,8 @@ const PrimitiveTypesIntro = () => {
         <p className="mb-2">Para crear una variable de tipo numérico, sigue estos pasos:</p>
 
         <ol className="list-decimal ml-8 mb-4">
-          <li>Comienza con la palabra clave <code className="bg-gray-100 text-gray-800 p-1 rounded">INT</code>.</li>
-          <li>Escribe el nombre de la variable.</li>
+          <li>Comenzá con la palabra clave <code className="bg-gray-100 text-gray-800 p-1 rounded">INT</code>.</li>
+          <li>Escribí el nombre de la variable.</li>
           <li>Utiliza el signo de asignación (<code className="bg-gray-100 text-gray-800 p-1 rounded">=</code>).</li>
           <li>Proporciona un valor entero o una expresión matemática de un solo operador que devuelva un número.</li>
         </ol>
@@ -44,7 +44,7 @@ const PrimitiveTypesIntro = () => {
 
         <h3 className="text-xl font-semibold mb-2">Operaciones Matemáticas con Variables de Tipo <code className="bg-gray-100 text-gray-800 p-1 rounded">INT</code></h3>
 
-        <p className="mb-2">Puedes realizar operaciones matemáticas básicas (suma, resta, multiplicación, división) con variables de tipo <code className="bg-gray-100 text-gray-800 p-1 rounded">INT</code>. Utiliza los operadores <code className="bg-gray-100 text-gray-800 p-1 rounded">+</code>, <code className="bg-gray-100 text-gray-800 p-1 rounded">-</code>, <code className="bg-gray-100 text-gray-800 p-1 rounded">*</code>, <code className="bg-gray-100 text-gray-800 p-1 rounded">/</code> para estas operaciones.</p>
+        <p className="mb-2">Podés realizar operaciones matemáticas básicas (suma, resta, multiplicación, división) con variables de tipo <code className="bg-gray-100 text-gray-800 p-1 rounded">INT</code>. Usa los operadores <code className="bg-gray-100 text-gray-800 p-1 rounded">+</code>, <code className="bg-gray-100 text-gray-800 p-1 rounded">-</code>, <code className="bg-gray-100 text-gray-800 p-1 rounded">*</code>, <code className="bg-gray-100 text-gray-800 p-1 rounded">/</code> para estas operaciones.</p>
 
         <p className="mb-2 font-medium">Ejemplo:</p>
         <pre className="bg-gray-100 text-gray-800 p-3 rounded mb-4 max-w-96"><code>
@@ -59,11 +59,11 @@ const PrimitiveTypesIntro = () => {
 
         <h4 className="text-lg font-semibold mb-2">Tipo Cadena de Texto (<code className="bg-gray-100 text-gray-800 p-1 rounded">STRING</code>)</h4>
 
-        <p className="mb-2">Para crear una variable de tipo cadena de texto, sigue estos pasos:</p>
+        <p className="mb-2">Para crear una variable de tipo cadena de texto, seguí estos pasos:</p>
 
         <ol className="list-decimal ml-8 mb-4">
-          <li>Comienza con la palabra clave <code className="bg-gray-100 text-gray-800 p-1 rounded">STRING</code>.</li>
-          <li>Escribe el nombre de la variable.</li>
+          <li>Comenzá con la palabra clave <code className="bg-gray-100 text-gray-800 p-1 rounded">STRING</code>.</li>
+          <li>Escribí el nombre de la variable.</li>
           <li>Utiliza el signo de asignación (<code className="bg-gray-100 text-gray-800 p-1 rounded">=</code>).</li>
           <li>Proporciona un valor de cadena entre comillas dobles (<code className="bg-gray-100 text-gray-800 p-1 rounded">"</code>).</li>
         </ol>
