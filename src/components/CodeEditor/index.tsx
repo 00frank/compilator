@@ -32,7 +32,7 @@ const CodeEditor = () => {
   }
 
   useEffect(() => {
-    let interval: number;
+    let interval: ReturnType<typeof setInterval>;
     if (!!errorHighliting) {
       interval = setInterval(() => {
         setShowError(true);
